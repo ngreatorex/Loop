@@ -15,7 +15,7 @@ enum LoopConstants {
     
     // Input field bounds
     
-    static let maxCarbEntryQuantity = HKQuantity(unit: .gram(), doubleValue: 250) // cannot exceed this value
+    static let maxCarbEntryQuantity = HKQuantity(unit: .gram(), doubleValue: 1000) // cannot exceed this value
 
     static let warningCarbEntryQuantity = HKQuantity(unit: .gram(), doubleValue: 99) // user is warned above this value
     
